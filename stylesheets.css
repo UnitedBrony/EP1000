@@ -3,16 +3,52 @@ p{
   color:rgb(0, 247, 255);
   margin-left:50px;
   margin-right:50px;
+  font-size:140%
 }
 p1{
   color:rgb(0, 247, 255);
   margin-left:50px;
   margin-right:50px;
+  font-size:130%
+}
+#p2{
+  color:#00e7e7;
+  margin-left:50px;
+  margin-right:50px;
+  font-size:130%
+}
+#p5{
+  color:#00e7e7;
+  margin-left:50px;
+  margin-right:50px;
+  font-size:130%
+}
+p4{
+  color:rgb(255, 28, 28);
+  margin-left:50px;
+  margin-right:50px;
+  font-size:100%
+}
+#p3{
+  color:rgb(199, 251, 253);
+  margin-left:50px;
+  margin-right:50px;
+  font-size:120%
 }
 li{
   color:yellow;
 list-style-type: none;
 text-decoration: none;
+}
+li2{
+  color:rgb(0, 174, 255);
+list-style-type: none;
+text-decoration: none;
+margin-left:50px;
+margin-right:50px;
+font-size:140%;
+padding:5px;
+text-align: left;
 }
 a{
   text-decoration: none;
