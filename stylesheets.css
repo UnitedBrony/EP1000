@@ -5,11 +5,13 @@ p{
   margin-right:50px;
   font-size:140%
 }
-p1{
-  color:rgb(0, 247, 255);
+#p1{
+  color:rgb(43, 255, 0);
   margin-left:50px;
   margin-right:50px;
-  font-size:130%
+  font-size:120%;
+  padding:0px;
+  margin-top:0px;
 }
 #p2{
   color:#00e7e7;
@@ -35,13 +37,19 @@ p1{
   margin-right:50px;
   font-size:120%
 }
+#p6{
+  color:rgb(0, 110, 255);
+  margin-left:50px;
+  margin-right:50px;
+  font-size:140%
+}
 li{
   color:yellow;
 list-style-type: none;
 text-decoration: none;
 font-size: 110%;
 }
-li2{
+#li2{
   color:rgb(0, 174, 255);
 list-style-type: none;
 text-decoration: none;
