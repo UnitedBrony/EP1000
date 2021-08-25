@@ -1,40 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Projects</title>
-     <link rel="stylesheet" href="stylesheets.css" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="stylesheets.css">
 </head>
 
-<body> 
-    <h1>feautures of tank</h1>
-   
+<body>
+    <h1>Features of tank</h1>
+
     <nav>
-         <ul>
+        <ul>
             <li><a href="index.html">Main</a></li>
             <li><a href="projects.html">Projects</a> </li>
             <li><a href="aboutpg.html">About me</a></li>
-            <li><a href="assignments.html">Assignements</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
             <li><a href="ep1000project.html">Final project</a></li>
-         </ul>
-     </nav>
-     <div class="w3-container">
-        <p>Various features of the tank are seen and discussed:</p>
-        
+        </ul>
+    </nav>
+    <div class="w3-container">
+        <h2>Various features of the tank are seen and discussed:</h2>
+        <p>The whole idea of the tank was to test out my design of suspension and thus is the main mechnical focus here.
+            As we can see below, the largest section of the tank is the suspension.</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880116632997990440/unknown.png"
+                alt="SP Fab Lab" style="width:300px;height:180px" />
+        </p>
+        <p>1)Starting off we have the road wheels, since this was a testbed I only needed the wheels to elevate the
+            whole chasis off the ground just enough to pass through most everyday house objects which was approx 20mm.
+            this meant the wheels need only be 20mm in radius as you typically can only climb items the same height as
+            the diameter of your wheel, fortunately the tracks might help me cover a bit more to 35mm should there be
+            enough grip.
+        </p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880117053300822046/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        </p>
+        <p>2)Next is what the wheels are connected to, suspension:</p>
+        <p>As I needed to dampen the effect of making contact on the ground I also needed a form of suspension that
+            could be easily replaced and sourceable, my conclusion would be to use rubber bands.
+            Unlike most suspension systems that uses a spring, I had to use a rubberband therefore I had to work around
+            using tension instead of compression which meant a class 1 cantilever. A class 2 or 3 could not be used due
+            to the lack of space
+            and I could make the build very fragile if I did not design it right.
+        </p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880117239049768990/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        </p>
+        <p>2.5)Each individual component of the suspension consists of these:</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880145317423616000/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        </p>
+        <p>Looking at the wheel first, we see that it's connected to the outer suspension and held in place via a washer
+            and nut. When actuated, the outer suspension in turn turns the inner suspension which pivots within the
+            chasis.
+            This results in the groove of the suspension to displace which stretches a rubberband within it that is also
+            anchored to a peg. The inner suspension and peg are kept in sync by the guide as the whole assembly moves
+            and of course
+            where the groove is present the inner suspension moves within it. There is a stopper to prevent the
+            suspension from snapping shut onto the peg.</p>
+        <p>Which are assembled as such:</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880145458771664956/unknown.png"
+                alt="SP Fab Lab" style="width:350px;height:180px" />
+        </p>
+        <p>Should be noted that the peg has a chamfer along the outer face to allow the outer suspension to flow
+            smoother:</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880146322127200346/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        </p>
+        <p>3)Now to talk about the thing that keeps everything in order, the track tensioner</p>
+        <p>As most tanks have track tensioners I thought it would be a good idea to implement my own as well in a worm
+            gear style, this helps to minimise backlash whilst remaining easy to operate.
+            In this case because I was short on time therefore I had taken a design from a user on thingiverse which
+            consisted of the rail, worm gear and housing for the gear. I had modified his design to fit my own needs
+            which shortened the rails,
+            resized the holes, adding a stabliser for the free wheel and cutting off bits of the worm gear whilst making
+            an insert that allows for a flathead screwdriver to turn it. </p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880134119491764234/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        <p>Here is an exploded view:</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880134669725749288/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        <p>4)Last but not least, the running gear:</p>
+        <p>The powerhouse of it all is the motor which is mounted on a housing which is in turn mounted to the main
+            chasis as seen here.</p>
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880154765357613097/unknown.png"
+                alt="SP Fab Lab" style="width:400px;height:180px" />
+        <p>The mount is designed in such a way that I can mount almost any continuous stepper motor </p>  
+        <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880154509832237096/unknown.png"
+            alt="SP Fab Lab" style="width:400px;height:180px" />      
+            <p>The running gear was actually based off someone else's design that I got from thingiverse. However, I had heavily modified it. As shown here it has 4 holes and slots coming from every 90° lined up perfectly to create a 4 anchor points. 
+                it also has a giant cavity to reduce weight, bulkiness and print time. 
+            </p>
+            <p><img src="https://cdn.discordapp.com/attachments/581934624368885763/880156857681993770/unknown.png" 
+            alt="SP Fab Lab" style="width:400px;height:180px"/>
+
     </div>
 
     <footer>
-        <p id="p4"><img src="https://cdn.discordapp.com/attachments/581934624368885763/844953649842225182/2Q.png" alt="SP Fab Lab" style= "width:15px;height:10px"/>Personal Email: huifangxibrony@gmail.com
+        <p id="p4"><img src="https://cdn.discordapp.com/attachments/581934624368885763/844953649842225182/2Q.png"
+                alt="SP Fab Lab" style="width:15px;height:10px" />Personal Email: huifangxibrony@gmail.com
         </p>
-        <p id="p4"><img src="https://cdn.discordapp.com/attachments/581934624368885763/844953601147273306/Z.png" alt="SP Fab Lab" style= "width:15px;height:15px"/>School Email : FANGXI50.19@ichat.sp.edu.sg
+
+        <p id="p4"><img src="https://cdn.discordapp.com/attachments/581934624368885763/844953601147273306/Z.png"
+                alt="SP Fab Lab" style="width:15px;height:15px" />School Email : FANGXI50.19@ichat.sp.edu.sg
         </p>
-        <p id="p4">Other contacts: 
-            <br><img src="https://cdn.discordapp.com/attachments/581934624368885763/844912754597953597/I9lhnVTZ7okAAAAASUVORK5CYII.png" alt="SP Fab Lab" style= "width:15px;height:15px"/> carousell: United_Brony
-            <br><img src="https://cdn.discordapp.com/attachments/581934624368885763/844953757325590538/1yyHKnckBCX00KJ1xRujBeA.png" alt="SP Fab Lab" style= "width:15px;height:15px"/> Discord : NAVY Brony#4047
+        <p id="p4">Other contacts:
+            <br><img
+                src="https://cdn.discordapp.com/attachments/581934624368885763/844912754597953597/I9lhnVTZ7okAAAAASUVORK5CYII.png"
+                alt="SP Fab Lab" stle="width:15px;height:1 5px" /> carousell: United_Brony
+            <br><img
+                src="https://cdn.discordapp.com/attachments/581934624368885763/844953757325590538/1yyHKnckBCX00KJ1xRujBeA.png"
+                alt="SP Fab Lab" style="width:15px;height:15px" /> Discord : NAVY Brony#4047
         </p>
-   </footer>
+        </footer>
 </body>
+
+</html>
+
 </html>
